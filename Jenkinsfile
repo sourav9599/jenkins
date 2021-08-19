@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        IS_READ_NEV_VARABLES = ‘true’
-	DB_NAME = ‘my_sql_db’
+        IS_READ_NEV_VARABLES = 'true'
+	DB_NAME = 'my_sql_db'
     }
     stages {
         stage('print_variables') {
